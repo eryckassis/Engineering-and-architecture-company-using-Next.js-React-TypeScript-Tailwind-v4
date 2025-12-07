@@ -5,6 +5,6 @@ export function cn(...inputs: ClassValue[]): string {
   return twMerge(clsx(inputs));
 }
 
-export function formarNumber(num: number): string {
+export function formatNumber(num: number): string {
   return new Intl.NumberFormat("en-US").format(num);
 }
