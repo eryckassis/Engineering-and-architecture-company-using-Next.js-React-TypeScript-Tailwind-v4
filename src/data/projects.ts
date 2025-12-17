@@ -33,4 +33,9 @@ export const projects: Project[] = [
     },
     featured: true,
   },
+  {
+    id: "emberstone-cabin",
+    title: "Emberstone Cabin",
+    description: "A minimal retreat",
+  },
 ];
