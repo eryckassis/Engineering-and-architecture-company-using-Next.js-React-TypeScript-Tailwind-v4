@@ -38,6 +38,11 @@ export const projects: Project[] = [
     title: "Emberstone Cabin",
     description:
       "A minimal retreat in the forest, where timber, concrete, and glass meet. Designed to disappear into its surroundings while offering shelter and stillness.",
-    info: "",
+    info: "Cabin · Completed · 2022",
+    category: "residential",
+    status: "completed",
+    year: 2022,
+    location: "Austin, Texas",
+    image: {},
   },
 ];
