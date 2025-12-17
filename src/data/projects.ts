@@ -50,7 +50,13 @@ export const projects: Project[] = [
     featured: true,
   },
 ];
-
+// retorna apenas projetos marcados como featured
 export function getFeaturedProjects(): Project[] {
   return projects.filter((project) => project.featured);
+}
+
+// busca projetos por ID
+
+export function getProjectById(id: string): Project | undefined {
+  return projects.find((project) => project.id === id);
 }
