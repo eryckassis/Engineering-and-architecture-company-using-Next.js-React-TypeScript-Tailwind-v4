@@ -17,3 +17,24 @@ export const footerNavLinks: NavLink[] = [
   { label: "Blueprints", href: "/blueprints" },
   { label: "Connect", href: "/connect" },
 ];
+
+export const socialLinks: NavLink[] = [
+  { label: "Instagram", href: "https://instagram.com" },
+  { label: "Are.na", href: "https://are.na" },
+  { label: "LinkedIn", href: "https://linkedin.com" },
+];
+
+export const ContactInfo: ContactInfo[] = [
+  {
+    type: "email",
+    label: "General",
+    value: "desk@terrene.studio",
+    href: "mailto:desk@terrene.studio",
+  },
+  {
+    type: "email",
+    label: "New Comissions",
+    value: "build@terrene.studio",
+    href: "mailto:build@terrene.studio",
+  },
+];
