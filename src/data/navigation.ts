@@ -37,4 +37,15 @@ export const ContactInfo: ContactInfo[] = [
     value: "build@terrene.studio",
     href: "mailto:build@terrene.studio",
   },
+  {
+    type: "phone",
+    label: "Phone",
+    value: "+1 (872) 441-2087",
+    href: "tel:+18724412086",
+  },
+  {
+    type: "address",
+    label: "Studio Address",
+    value: "18 Cordova Lane, Seattle, WA 98101",
+  },
 ];
